@@ -1,16 +1,18 @@
 
 body {
-    font-family: 'diosis', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(247, 242, 237);
 
 }
 
 h1 {
-  font-family: 'diosis', sans-serif;
+  font-family: ;
   font-weight: 400;
 }
 
-
+nav {
+  font-family: 'diosis', sans-serif;
+}
 /* carousel */
 
 .carousel .carousel-item {
@@ -18,11 +20,11 @@ h1 {
   }
   
   .carousel-item img {
-      position: absolute;
+      position: static;
       object-fit: cover;
       top: 0;
       left: 0;
-      min-height: 200px;
+      min-height: 350px;
       opacity: 70%;
   }
 
@@ -39,11 +41,7 @@ h1 {
 }
  
 .bio-padding {
-  padding: 20px 50px 20px 50px;
-}
-
-.button-padding {
-padding: 10px;
+  padding: 30px 50px 30px 50px;
 }
 
 /* Bio */
