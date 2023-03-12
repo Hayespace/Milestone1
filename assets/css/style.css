@@ -32,6 +32,11 @@ nav {
 
 /* Bio */
 
+q {
+  color: rgb(137, 137, 137);
+  font-size: 8px;
+}
+
 .text-color {
     color: darkgrey;
   }
