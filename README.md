@@ -1,8 +1,9 @@
 # Ga / LAB.
 
-Ga / LAB. is a showcase of the works of artist and graphic designer, Gaia Dipilato. It has been designed with sleek minimalism and muted tones in mind, in order not to distract from the artworks and information.
 
-The target audience is art collectors, galleries, and people with disposibale income who enjoy high-end art and design.
+Ga / LAB. is a showcase of the works of artist and graphic designer, Gaia Dipilato. It has been designed with sleek minimalism and muted tones in mind, in order not to distract from the artworks and information.  With such vibrant and colourful works inspiration has been drawn from the vast white walls of gallery spaces.
+
+The target audience is art collectors, galleries, and people with disposibale income who enjoy fashion, art and design. 9 unique pieces have been showcased highlighting the diversity of the artists work while not overwhelming the site user with imagery.  Each piece has been attached to a modal for fullscreen high res viewing.  The overall design is intuitive and easy to navigate.
 
 ## Features
 
@@ -21,14 +22,16 @@ The target audience is art collectors, galleries, and people with disposibale in
 - It sits front and center at the top of each page aross all devices as a styling choice
 ![Logo](/assets/images/readme_images/logo.png)
 ### Carousel
-- Three images provided by the artist sit within the carousel with floating text and description
-- The images and text offer examples of the differing styles of the artists work.
+- The carousel is autoplay
+- Three banner images of collages provided by the artist sit within the carousel
+- The images offer examples of the differing styles of the artists work.
 ![Carousel](/assets/images/readme_images/carousel.png)
 ### Bio
-- Simple design and responsive design offering brief bio provided by the artist.
+- Simple and responsive design on the landing page with and elegant font offering brief bio provided by the artist.
 ### Gallery Page
 - A nine piece selection of works which showcase the different styles and mediums used by the artist. Opaque overlays have been added with the name of each piece appearing when hovered over.
 - The collection has been kept minimal so as not to overhwhelm the user with content but enough to show variety and scope.
+- Modal for full screen view of images.
 ![Gallery Imgaes](/assets/images/readme_images/gallery.png)
 ### Modal 
 ![Modal](/assets/images/readme_images/modal_ss.png)
@@ -74,20 +77,17 @@ I had an initial design meeting with the artist and the structure was mutally ag
 ## Unfixed Bugs
 - Contact Page - The message box had to be customised in order to create a larger input field and text wrap.  After using a bootstrap template and custom stying the box, I was unable to recreate the same placeholder text transition as the other input fields.  
 Due to the expandable nature of the bootstrap template, I was not able to find a work around that would alow for a variable transition based on the size of the expansion.
+
 # Deployment
-
-
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 # Credits
-
-All images and artworks were designed and provided by the artist.  Bootstrap was used for some design elements as well as a youtube tutorial for the sign up form.
+All images and artworks were designed and provided by the artist.  Bootstrap was used for some design elements including modal and grid system as well as a youtube tutorial for the sign up form.
 
 ## Content
-
 - Contact Form - The contact form of my site was heavily influenced by the following tutorial https://www.youtube.com/watch?v=s6rF1Josk9M However, I customised some of the styling. In particular, the message box which only allowed for a single line of text and did not text-wrap so this was replaced with my own code.
 - Navbar - Navbar is a Bootstrap template with custom css
 - Icons - Instagram icon taken from font awesome
