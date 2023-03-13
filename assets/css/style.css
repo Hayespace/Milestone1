@@ -13,6 +13,7 @@ h1 {
 nav {
   font-family: 'diosis', sans-serif;
 }
+
 /* carousel */
 
 .carousel .carousel-item {
@@ -95,10 +96,12 @@ q {
 
 .thumbnail {
   display: inline-block;
+  color: black;
 }
 
 .thumbnail:hover {
   transform: translateY(-4px);
+  color: black;
 }
 
 .img-container:hover .overlay {
