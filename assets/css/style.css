@@ -93,6 +93,10 @@ q {
   text-align: center;
 }
 
+.thumbnail {
+  display: inline-block;
+}
+
 .thumbnail:hover {
   transform: translateY(-4px);
 }

@@ -12,33 +12,35 @@ The target audience is art collectors, galleries, and people with disposibale in
 - The current page is signalled by a change in text color to black and a period at the end of the word which is in keeping with the branding and style.
 - Simple black and muted grey tones have been selected for styling
 
-![Wireframes](/assets/images/readme_images/navbar.png)
-![Wireframes](/assets/images/readme_images/navbar_mobile.png)
-![Wireframes](/assets/images/readme_images/navbar_toggle.png)
+![Nabar](/assets/images/readme_images/navbar.png)
+![Navbar mobile view](/assets/images/readme_images/navbar_mobile.png)
+![Navbar Toggle](/assets/images/readme_images/navbar_toggle.png)
 
 ### Logo
 - Logo designed and supplied by the artist
 - It sits front and center at the top of each page aross all devices as a styling choice
-![Wireframes](/assets/images/readme_images/logo.png)
+![Logo](/assets/images/readme_images/logo.png)
 ### Carousel
 - Three images provided by the artist sit within the carousel with floating text and description
 - The images and text offer examples of the differing styles of the artists work.
-![Wireframes](/assets/images/readme_images/carousel.png)
+![Carousel](/assets/images/readme_images/carousel.png)
 ### Bio
 - Simple design and responsive design offering brief bio provided by the artist.
 ### Gallery Page
 - A nine piece selection of works which showcase the different styles and mediums used by the artist. Opaque overlays have been added with the name of each piece appearing when hovered over.
 - The collection has been kept minimal so as not to overhwhelm the user with content but enough to show variety and scope.
-![Wireframes](/assets/images/readme_images/gallery.png)
+![Gallery Imgaes](/assets/images/readme_images/gallery.png)
+### Modal 
+![Modal](/assets/images/readme_images/modal_ss.png)
 ### Contact from
 - Simple and elegant floating contact form with light box shadow.  
 - The labels sit inside the input boxes but transform to glide upwards and sit just above the box once clicked.
-![Wireframes](/assets/images/readme_images/contactform.png)
+![Contact Form](/assets/images/readme_images/contactform.png)
 ### Bottom Logo
 -  A simple design idea created by the artist to add a touch of colour to the pages
 ### Footer
 - In keeping with the minimal nature of the site, only a single link to instagram has been included with muted copyright information just below.
-![Wireframes](/assets/images/readme_images/footer.png)
+![Footer](/assets/images/readme_images/footer.png)
 # Wirefame
 The layout of the final site does not differ too much from the planned wireframes.  
 I had an initial design meeting with the artist and the structure was mutally agreed upon as was the colour scheme and font choice.
@@ -92,6 +94,7 @@ All images and artworks were designed and provided by the artist.  Bootstrap was
 - Logo and Artworks - These are original pieces design and provided by the artist, Gaia Dipilato
 - Carousel - Bootstrap template with custom media query
 - Gallery - Boostrap grid template with custom borders, overlay, shadows and labels
+- Modal - Bootstrap modal template added to gallery with some custom sizing and css 
 ## Media
 
 - Logo, Artworks and Photos - These are original pieces design and provided by the artist, Gaia Dipilato.
