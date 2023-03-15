@@ -11,11 +11,9 @@ font-weight: 400;
 
 nav {
 font-family: 'diosis', sans-serif;
+background-color: rgb(247, 242, 237);
 }
 
-.nav-gallery {
-  background-color: rgb(247, 242, 237);
-}
 
 /* carousel */
 
