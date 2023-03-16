@@ -159,10 +159,7 @@ line-height: 26px;
 font-weight: 400;
 }
 
-.contact-form .input-text:focus + .label,
-.contact-form .input-text.not-empty + .label {
-transform: translateY(-24px);
-}
+
 
 .contact-form .input-text:focus {
 outline: none;
@@ -182,7 +179,6 @@ font-weight: 400;
 color: rgb(78, 76, 76);
 cursor: text;
 text-transform: capitalize;
-transition: transform 0.2s ease-in-out 
 }
 
 .contact-form .submit-btn {
