@@ -14,7 +14,6 @@ font-family: 'diosis', sans-serif;
 background-color: rgb(247, 242, 237);
 }
 
-
 /* carousel */
 
 .carousel .carousel-item {
@@ -169,10 +168,6 @@ transform: translateY(-24px);
 outline: none;
 }
 
-.contact-form .message-text:focus + .label{
-transform: translateY(-97px);
-}
-
 .contact-form .message-text:focus {
 outline: none;
 }
@@ -187,7 +182,7 @@ font-weight: 400;
 color: rgb(78, 76, 76);
 cursor: text;
 text-transform: capitalize;
-transition: transform 0.2s ease-in-out;
+transition: transform 0.2s ease-in-out 
 }
 
 .contact-form .submit-btn {
