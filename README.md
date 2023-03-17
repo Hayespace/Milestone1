@@ -1,9 +1,34 @@
 # Ga / LAB.
 
 
-Ga / LAB. is a showcase of the works of artist and graphic designer, Gaia Dipilato. It has been designed with sleek minimalism and muted tones in mind, in order not to distract from the artworks and information.  With such vibrant and colourful works inspiration has been drawn from the vast white walls of gallery spaces.
+Ga / LAB. is a showcase of the works of artist and graphic designer, Gaia Dipilato. 
 
-The target audience is art collectors, galleries, and people with disposibale income who enjoy fashion, art and design. 9 unique pieces have been showcased highlighting the diversity of the artists work while not overwhelming the site user with imagery.  Each piece has been attached to a modal for fullscreen high res viewing.  The overall design is intuitive and easy to navigate.
+The target audience is art collectors, galleries, and people with disposibale income who enjoy fashion, art and design.     
+
+The site can be found here https://hayespace.github.io/Milestone1/
+
+## UX
+
+
+
+### User Stories
+
+The user should: 
+- Be able to navigate through the whole site smoothly.
+- Understand the purpose of the site upon loading it.
+- Be able to contact the artist for more information.
+- View a gallery of works by the artist.
+- Have information about the artist
+- Link to social media
+
+### Design and Colour Scheme
+- It has been designed with sleek minimalism and muted tones in mind, in order not to distract from the artworks and information.  
+- With such vibrant and colourful works inspiration has been drawn from the vast white walls of gallery spaces.
+- Soft lines and elegant fonts
+-The overall design is intuitive and easy to navigate.
+- 9 unique pieces have been showcased highlighting the diversity of the artists work while not overwhelming the site user with imagery.
+- Each piece has been attached to a modal for fullscreen high res viewing.
+
 
 ## Features
 
@@ -56,6 +81,12 @@ I had an initial design meeting with the artist and the structure was mutally ag
 ## contact.html
 ![Wireframes](/assets/images/readme_images/wf_contact1.png)
 
+# Technologies Used
+- HTML5 - provides the content and structure for the website.
+- CSS - provides the styling.
+- Balsamiq - used to create the wireframes.
+- Gitpod - used to deploy the website.
+- Github - used to host and edit the website.
 
 # Testing
 ## Validator Testing
@@ -70,13 +101,38 @@ I had an initial design meeting with the artist and the structure was mutally ag
 - ### Contact - Message box was single line and text not wrapping within the box.
     - Fix - I used a bootstrap input template and adjusted the styling to match the other input fields on the page.
 
+![Contact](/assets/images/readme_images/messagebx_notwrap.png)
+
+- ### Contact - Message box line spacing issue.
+    - Fix - I created a custom css class to adjust
+![Contact](/assets/images/readme_images/messagebx_linespc.png)
+
 - ### Gallery - Images provided by the artist were all different sizes
     - Fix - I manually adjusted the size each image in photoshop to match
-    
+
+
+
+- ### Carousel - Images of varyting sizes reacting differently when on different devices
+    - Fix - Create custom banners of the same size with a central image which is shown on mobile and the side images visable on larger screens.
+
+  ![Index](/assets/images/readme_images/testcarousel.png)
+
+
+
+- ### Contact - Animated label transitionY
+    - I followed a youtube tutorial which contained an animated label which sat within the input filed and glided up when text was entered into the text box.  The issue arose when clicking into the next field and the label would then glide down back into the box and obsure the newly entered text.
+    - Fix - I could not find a way to get the label text to stay in place. So I removed the label completely and replaced with placeholder text.
+
+### Original
+![Contact](/assets/images/readme_images/contactform.png)
+
+### Fix
+
 
 ## Unfixed Bugs
 - Contact Page - The message box had to be customised in order to create a larger input field and text wrap.  After using a bootstrap template and custom stying the box, I was unable to recreate the same placeholder text transition as the other input fields.  
 Due to the expandable nature of the bootstrap template, I was not able to find a work around that would alow for a variable transition based on the size of the expansion.
+
 
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -84,6 +140,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+
+
 # Credits
 All images and artworks were designed and provided by the artist.  Bootstrap was used for some design elements including modal and grid system as well as a youtube tutorial for the sign up form.
 
