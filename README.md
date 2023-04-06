@@ -1,5 +1,6 @@
 # Ga / LAB.
 
+![responsiveness](/assets/images/readme_images/responsive.png)
 
 Ga / LAB. is a showcase of the works of artist and graphic designer, Gaia Dipilato. 
 
