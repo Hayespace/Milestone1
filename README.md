@@ -92,7 +92,7 @@ I had an initial design meeting with the artist and the structure was mutally ag
 # Testing
 ## Validator Testing
 
-- HTML - No errors were returned when passing through the official W3C validator
+- HTML - 1 error found on works.html (Refer to Unfixed Bugs)
 - CSS - No errors were found when passing through the official (Jigsaw) validator
 
 ## Issues Encountered and Resolved
@@ -132,7 +132,10 @@ I had an initial design meeting with the artist and the structure was mutally ag
 
 ## Unfixed Bugs
 - Contact Page - The message box had to be customised in order to create a larger input field and text wrap.  After using a bootstrap template and custom stying the box, I was unable to recreate the same placeholder text transition as the other input fields.  
-Due to the expandable nature of the bootstrap template, I was not able to find a work around that would alow for a variable transition based on the size of the expansion.
+Due to the expandable nature of the bootstrap template, I was not able to find a work around that would allow for a variable transition based on the size of the expansion.
+- works.html - html validator returning issue with modal width value.
+![Modal](/assets/images/readme_images/modalwidtherror.png)
+By altering the value as suggested in the error, the image no longer filled the full width and height of the modal.  Leaving the error as is doesn't appear to impact performance of functionality in any way I made a decision to leave as is.
 
 
 # Deployment
