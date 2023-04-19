@@ -90,6 +90,21 @@ I had an initial design meeting with the artist and the structure was mutally ag
 - Github - used to host and edit the website.
 
 # Testing
+
+## User Stories
+
+- Be able to navigate through the whole site smoothly.
+   - The layout and design is very simple and easy to navigate.  The navbar is clearly placed and defined.  In mobile it converts to a toggler which sits at the top of the screen for easy access.
+- Understand the purpose of the site upon loading it.
+    - The carousel clearly displays the works from the artist and presents them front and centre upon visiting the site.  Below is a brief blurb about the artist and her works.
+- Be able to contact the artist for more information.
+   - Very clear and easy to navigate contact form with a link in the navbar.
+- View a gallery of works by the artist.
+  - Responsive gallery page with interactive modal which presents the selected inmage in full screen.  A hover displays the name of the pieces.
+- Have information about the artist
+  - A brief two paragraph blurb sits in the landing page ditectly underneath the carousel of works.
+- Link to social media
+  -  Link to instagram in the footer.
 ## Validator Testing
 
 - HTML - 1 error found on works.html (Refer to Unfixed Bugs)
